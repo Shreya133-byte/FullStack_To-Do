@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap');
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #110052, #9733a2, #1260A6);
+    font-family: 'Playfair Display', serif;
+    background: url('Moonlight.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #000000;
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@ body {
 
 .wrapper {
     width: min(100%, 600px);
-    background: #000000;
+    background: #050816;
     border-radius: 24px;
     box-shadow: 0 24px 80px rgba(15, 23, 42, 0.14);
     padding: 36px;
@@ -20,13 +22,14 @@ body {
 h1 {
     margin: 0 0 10px;
     font-size: 2.2rem;
-    color: #d6fc3e;
+    color: #F9FAFB;
 }
 
 p {
     margin: 0 0 24px;
-    color: #4b5563;
+    color:#9CA3AF;
     line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
 }
 
 .task-form {
@@ -49,7 +52,7 @@ p {
     border: none;
     border-radius: 14px;
     color: #ffffff;
-    background: #2563eb;
+    background:#3B82F6;
     font-weight: 700;
     cursor: pointer;
 }
